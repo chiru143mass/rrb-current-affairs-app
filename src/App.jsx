@@ -15,270 +15,358 @@ const SUBJECTS = [
   { id: 'whoswho', name: "Who's Who (CMs & Govs)", icon: BookOpen }
 ];
 
-// --- CORE DATASET IN PURE TINGLISH ---
+// --- COMPREHENSIVE 2026 CURRENT AFFAIRS DATASET IN PURE TINGLISH ---
 const CURRENT_AFFAIRS_DATA = {
   January: {
     national: [
-      "**Namo Drone Didi Scheme:** Ee scheme kinda central government agricultural drone training and subsidy updates release chesaru.",
-      "**Judiciary Verdict:** Supreme Court high-speed rail projects surrounding guidelines and safety checks mandatory cheyali ani ruling ichindi.",
-      "**State Elections:** Southern states and local bodies poll schedules and updates notifications start ayyayi."
+      "**Republic Day Guest:** India's 77th Republic Day celebration loop lo guest speakers ga Presidents of the European Commission (Ursula von der Leyen) & European Council (Charles Michel) participate chesaru.",
+      "**Namo Drone Didi Scheme Expansion:** Central government rural agricultural self-help groups lo unna women leaders ki massive ga agricultural drones supply and flying training parameters start chesi local launch updates confirm chesaru.",
+      "**Supreme Court Verdict on Environment:** High-speed bullet train corridors alignment area lo clear standard environmental audits and drinking water safety guidelines mandatory ga setup cheyali ani historic resolution SC pass chesindhi.",
+      "**NGO Registration Rules:** Foreign contributions thosaha build ayye standard NGOs regulatory framework guidelines direct ga strict rules format lo updates implementation execution details central government finalise chesindhi.",
+      "**E-Visa Port Entry:** India direct ga extra **11 International Ports** lo entry systems ni dynamic ga access control cheyadaniki security clearance rules updates modify chesthu notifications finalise chesaru."
     ],
     international: [
-      "**India-France Bilateral Summit:** Paris lo digital and defense security agreements paina Modi sign chesaru.",
-      "**Global Index:** India corruption perception index and international trade index rankings updates release ayyayi.",
-      "**Geopolitics:** Red Sea shipping routes safety parameters system update chesaru."
+      "**BRICS Presidency 2026:** India official ga 2026 annual BRICS chairmanship post parameters and presidency coordination responsibilities check theesukundi. Main theme 'Resilience, Innovation and Sustainability'.",
+      "**India-France Bilateral Treaty:** Paris lo standard defense logistics upgrades and cybersecurity support framework setups update cheyadaniki PM Narendra Modi agreements complete chesaru.",
+      "**Global Trade Index:** International business and logistics performance rankings table updates released, indulo India performance improve aindi.",
+      "**Red Sea Maritime Security:** International cargo transit routes clearance checks systems lo India naval assistance standard levels expand chesi secure chesindi.",
+      "**UN Climate Target Reviews:** Carbon emission offset rules review targets local and global standard updates complete chesaru."
     ],
     economy: [
-      "**RBI Monetary Policy:** Repo rate ni RBI **6.50%** daggare unchanged ga ఉంచింది inflation control kosam.",
-      "**GDP Estimates:** FY26 annual GDP growth rate prediction **7.0%** daggara stable ga vuntundi ani announce chesaru.",
-      "**Corporate Merger:** India key telecom and tech companies massive merger agreements finish cheskunayi."
+      "**RBI Repo Rate Update:** inflation parameters direct check dynamic thagginchadaniki RBI MPC meeting lo repo rate baseline standard value **6.50%** parameters daggare stability ga maintain chesindi.",
+      "**GDP Growth Prediction:** GDP annual growth target prediction baseline state dynamic FY26 year loop **7.0%** daggara forecast system release chesaru.",
+      "**Stock Market Highs:** Year beginning domestic indexes Nifty and Sensex records values cross chesthu dynamic growth records direct complete chesayi.",
+      "**Corporate Telecom Deal:** Infrastructure share values direct coordinate cheyadaniki top digital infrastructure organizations and networks share merger complete.",
+      "**Trade Deficit Updates:** Import values and domestic export parameters control dynamic check margins decrease parameters release check done."
     ],
     science: [
-      "**Gaganyaan Mission:** Gaganyaan crew module high-speed parachute escape system trials successfully run chesaru.",
-      "**ISRO Satellite:** Communication upgrade system satellite launch date parameters announce chesaru.",
-      "**Defense Exercise:** Indian Army and French Army kalisi run chesina **Exercise Shakti** successful ga start aindi."
+      "**Gaganyaan Trial Success:** Gaganyaan crew module spacecraft emergency parachute safety descent test runs dynamically successfully finished at sea recovery.",
+      "**ISRO Rocket launch pad checks:** Cartosat series heavy imaging telemetry system satellite tests successfully completed.",
+      "**Military Training Exercise:** Indian Army and French Army joint coordinate training unit **Exercise Shakti** successful integration and operation done.",
+      "**NABL Food Safety Launch:** NABL systems first mobile food testing laboratories standards certification parameters details and validation launch chesaru.",
+      "**New Species Discovery:** Meghalaya forests lo key plant structures dynamic mushrooms new species *Russula griseopurpurata* discover chesaru."
     ],
     sports: [
-      "**Australian Open 2026:** Men's and Women's singles grand slam winners titles updates and records notes.",
-      "**Padma Awards 2026:** Padma Vibhushan, Padma Bhushan counts list with special focus on Telugu states achievers.",
-      "**Appointments:** Chief Justice of India and new Army Staff Chief key designations details check."
+      "**Australian Open Grand Slam:** Men's and Women's singles champions records updates and match tallies list clear details details.",
+      "**Padma Awards 2026:** Padma Vibhushan and Padma Bhushan awards complete counts list with special awards details for Telugu state artists.",
+      "**Sindhu Athletes Commission:** PV Sindhu official ga Chair of BWF Athletes Commission (2026-2029 term) loop selection check successful ga select aindi.",
+      "**ICC Men's T20 World Cup Co-host:** India and Sri Lanka dynamic tournament updates stadiums checklist dynamic prepare schedules finalize details.",
+      "**New Grandmaster:** Young Indian chess prodigy matches wins through youngest grandmaster title record verify check successfully done."
     ],
     whoswho: [
-      "**Andhra Pradesh CM:** Nara Chandrababu Naidu | **Governor:** S. Abdul Nazeer.",
-      "**Telangana CM:** A. Revanth Reddy | **Governor:** Jishnu Dev Varma.",
-      "**Chief Justice of India (CJI):** Sanjiv Khanna (New CJI updates check).",
-      "**National Security Advisor (NSA):** Ajit Doval."
+      "**Andhra Pradesh CM:** Nara Chandrababu Naidu | **Governor:** S. Abdul Nazeer (AP High Court Chief Justice: Dheeraj Singh Thakur).",
+      "**Telangana CM:** A. Revanth Reddy | **Governor:** Jishnu Dev Varma (Telangana High Court Chief Justice: Alok Aradhe).",
+      "**Chief Justice of India (CJI):** Justice Sanjiv Khanna (New CJI designation detail).",
+      "**National Security Advisor (NSA):** Ajit Doval.",
+      "**Cabinet Secretary:** Rajiv Gauba."
     ]
   },
   February: {
     national: [
-      "**Union Budget 2026-27:** Railway budget CapEx upgrades, Vande Bharat sleeper routes and Kavach system updates details details.",
-      "**Amrit Bharat Station Scheme:** AP and Telangana lo main stations upgrade list details budget lo parameters finalise chesaru.",
-      "**Policy Launch:** PM-Vidyalaxmi educational interest subsidy scheme updates parameters execute chesaru."
+      "**Union Budget 2026-27:** Finance Minister Nirmala Sitharaman budget presentation. Railways, solar, and semiconductor manufacturing sectors focus. Fiscal deficit target set at **4.4%**.",
+      "**Amrit Bharat Station Updates:** AP and Telangana central railway regions lo key small stations dynamic smart security controls update details details.",
+      "**GOBARdhan Scheme Outlay:** National Unified scheme for Compressed Biogas development projects allocation approval finalise dynamically complete.",
+      "**PM-Vidyalaxmi launch:** Higher education student loans interest waivers and documentation safety controls setup done.",
+      "**TRAI 1601 Series:** Transactional voice notifications identity standard scam security check launch TRAI finalized standardly."
     ],
     international: [
-      "**India-UAE Trade Treaty:** Technical and financial digital payments systems integration complete chesaru.",
-      "**G20 Finance Ministers Meet:** digital currency rules standardise cheyadaniki main decisions theesukunaru.",
-      "**Reports:** World Happiness Index 2026 and climate change performance reports updates released."
+      "**India-UAE Financial Agreement:** UPI and UAE local card payments systems link complete, global digital currency systems check.",
+      "**BRICS Finance Meeting:** Central bank heads digital asset frameworks integration dynamic guidelines verify details details.",
+      "**World Happiness Index:** India rating parameters comparison updates check with regional Asian neighbors.",
+      "**India-UK Trade Talks:** Tariff reductions and industrial hardware updates supply chains coordination finalized.",
+      "**Bilateral Visit:** External Affairs Minister visits European Union countries to discuss energy security."
     ],
     economy: [
-      "**Economic Survey Highlights:** Infrastructure spends standard growth dynamic details updates details.",
-      "**Inflation Rate:** Domestic wholesale and retail inflation **4.4%** levels ki decrease aindi.",
-      "**GST Collection:** Monthly GST revenue collection records range details."
+      "**Fiscal Deficit Target:** Budget projects deficit to reduce to **4.4%** of GDP by end of FY26.",
+      "**GST Collections:** February monthly revenue hits record **2.15 Lakh Crore** levels due to high retail consumption.",
+      "**GDP growth upgrade:** IMF projects India growth to touch **7.1%** in current fiscal year.",
+      "**Gold Reserves Update:** RBI gold import and domestic vault transfer records checks details.",
+      "**Steel exports:** High domestic steel production records export growth margins details."
     ],
     science: [
-      "**DRDO Test:** Agni-V Missile range updates trials successfully verify chesaru.",
-      "**NASA-ISRO NISAR:** NISAR satellite integration and radar payload checks complete chesaru.",
-      "**Navy Inductions:** Indigenous stealth destroyer system commissioning done successfully."
+      "**Agni-V MIRV Test:** DRDO targets multiple payloads simultaneously range successfully verified.",
+      "**Navy Inductions:** INS Sandhayak hydrographic survey vessel commissioned in Vizag port.",
+      "**NASA-ISRO Satellite (NISAR):** Final integration testing completed at ISRO assembly site.",
+      "**Solar capacity:** India hits **162.15 GW** total installed solar capacity, highest among developing countries.",
+      "**Indigenous Vaccines:** Cervical cancer prevention vaccine rollout started at community centers."
     ],
     sports: [
-      "**BCCI Contracts:** National team players dynamic grades and match fee updates lists details.",
-      "**Khel Ratna Awards:** Khel Ratna and Arjuna awards lists standard distribution ceremony details.",
-      "**Obituaries:** Key sports and political leaders who passed away recently."
+      "**T20 World Cup Co-hosts:** India and Sri Lanka schedule announcements, key venues in Vizag and Colombo finalized.",
+      "**Khel Ratna Awards:** President Droupadi Murmu presents awards to outstanding sports stars.",
+      "**IPL Auction checks:** Pre-season rosters and team player slots trades updates details.",
+      "**Chess Success:** Indian grandmasters win top places in world ratings lists.",
+      "**Ranji Trophy Winner:** Domestic cricket champions trophy final match results."
     ],
     whoswho: [
       "**Indian Army Chief:** General Upendra Dwivedi.",
       "**Indian Navy Chief:** Admiral Dinesh K Tripathi.",
       "**Chief Election Commissioner (CEC):** Rajiv Kumar.",
+      "**NITI Aayog CEO:** B.V.R. Subrahmanyam.",
       "**Karnataka CM:** Siddaramaiah | **Governor:** Thaawarchand Gehlot."
     ]
   },
   March: {
     national: [
-      "**Telecom Bill 2026:** New digital spectrum auctions guidelines and customer safety locks details details.",
-      "**Landmark Verdict:** Clean drinking water and basic environment checks citizens primary rights guidelines SC ruling.",
-      "**State Projects:** Southern ports and industrial corridor projects approvals details."
+      "**Telecom Act implementation:** New spectrum allocation guidelines and telecom infrastructure rights of way rules updated.",
+      "**High Court Chief Justices:** Multiple state High Courts get new Chief Justices based on SC Collegium recommendations.",
+      "**Water Conservation Policy:** Jal Jeevan Mission targets reached in most rural drought regions of AP.",
+      "**Airport Upgrades:** Tier-2 city airports get new terminals, digital boarding systems operational.",
+      "**Expressway projects:** Nagpur-Vijayawada corridor dynamic phase checks completed."
     ],
     international: [
-      "**BRICS Expansion:** New member nations entries and trade system currency updates check.",
-      "**SCO Meeting:** Regional security checks and economic trade agreements Astana lo execute chesaru.",
-      "**Treaty:** South Asian nations custom clearance thagginchadaniki treaty clear."
+      "**India-UK FTA Progress:** Final rounds of bilateral trade agreements regarding services sector finalized.",
+      "**SCO Security Meet:** Regional security checks and counter-terrorism measures discussions finalized.",
+      "**Passport Index:** India Henley Passport Index rank reaches improved position.",
+      "**Global Climate Meet:** India highlights solar alliances target successes in UN conference.",
+      "**Human Rights Index:** Global reports comparison lists release by UN committees."
     ],
     economy: [
-      "**RBI Digital Rupee:** Offline e-rupee payment limits and offline wallet parameters updates.",
-      "**GDP Revision:** Moody's and IMF India GDP predictions **7.2%** levels ki revise chesaru.",
-      "**SBI Profit:** Record net profit and dividend allocations details."
+      "**SBI Net Profit:** SBI reports highest ever quarterly profits, dividend payments announced.",
+      "**Corporate Bond Market:** New regulations by SEBI to simplify corporate bond investments.",
+      "**Direct Tax Collections:** IT department reports massive increase in tax filings for FY25-26.",
+      "**Digital rupee offline:** RBI starts trials of offline CBDC transactions in rural areas.",
+      "**FDI Inflow:** Technology and clean energy sectors receive highest FDI in Q4."
     ],
     science: [
-      "**ISRO PSLV-C58:** Commercial satellites launch successfully done by ISRO.",
-      "**Vaccine Development:** New malaria prevention vaccine and clinical trials successfully complete.",
-      "**Tarang Shakti Exercise:** Indian Airforce conduct chesthunna massive air force practice sessions details."
+      "**ISRO PSLV-C59 Launch:** Weather and earth observation satellites placed in orbit.",
+      "**AI Supercomputer PARAM-Glow:** India launches new advanced computing system for climate prediction.",
+      "**Military exercise Tarang Shakti:** Airforce joint exercises with friendly air forces details.",
+      "**Mushroom Discovery:** Meghalaya forests show new fungal species records with medical uses.",
+      "**Biotech Breakthrough:** Indian research institute patents new plant-based protein extraction."
     ],
     sports: [
-      "**IPL 2026 Kick-off:** Team rosters, Captain changes and brand new rules updates list.",
-      "**National Film Awards:** Best actor, actress and best regional movie parameters lists details.",
-      "**Oscar Awards 2026:** Best picture and main international awards lists notes."
+      "**IPL 2026 Season Launch:** Dynamic rules like 2-bouncer rule and impact player updates list.",
+      "**Oscars 2026 Winners:** Indian documentary gets special jury nomination.",
+      "**All England Badminton:** Indian players secure semi-final berths in singles.",
+      "**Formula 1 Grand Prix:** Season updates and key team standing details.",
+      "**National Archery Champions:** State players win top medals in national games."
     ],
     whoswho: [
       "**ISRO Chairman:** S. Somanath.",
       "**DRDO Chairman:** Dr. Samir V. Kamat.",
       "**Tamil Nadu CM:** M. K. Stalin | **Governor:** R. N. Ravi.",
-      "**Kerala CM:** Pinarayi Vijayan | **Governor:** Arif Mohammad Khan."
+      "**Kerala CM:** Pinarayi Vijayan | **Governor:** Arif Mohammad Khan.",
+      "**Chief Justice of Telangana:** Justice Alok Aradhe."
     ]
   },
   April: {
     national: [
-      "**Lok Sabha Elections 2026:** General elections schedules and voting dates schedules updates.",
-      "**Water Conservation Policy:** Har Ghar Jal scheme coverage updates in rural South India.",
-      "**High-Speed Rail Safety:** Bullet train corridor environmental checks guidelines release."
+      "**General Elections 2026:** Electorate registration and polling schedules updates across South Indian states.",
+      "**Bullet Train corridor safety:** Environment clearances for Mumbai-Ahmedabad rail sections finalized.",
+      "**Green Hydrogen Hubs:** Central government selects Vizag and Tuticorin for new clean energy ports.",
+      "**Forest Rights Act:** Tribals land ownership verification systems digitized.",
+      "**National Highway progress:** NHAI reports record construction of 40 km per day speed."
     ],
     international: [
-      "**WHO AI Policy:** Healthcare systems lo AI tools safe ga vadaniki new protocols standard list.",
-      "**India-UK Free Trade Agreement:** Custom duty levels check and trade talks details.",
-      "**Global Hunger Index:** India rank status updates and measurements data."
+      "**WHO AI Protocols:** Standard instructions for using generative AI in patient diagnosis released.",
+      "**BRICS New Member talks:** Guidelines for currency clearing between member countries finalized.",
+      "**Global Food Security Summit:** India showcases food supply chain safety systems.",
+      "**India-US defense deals:** Advanced drone manufacturing units setup in India.",
+      "**UN Security Council reform:** India pushes for permanent seat status in general assembly."
     ],
     economy: [
-      "**GST Milestone:** Monthly GST collections reach record **2.10 Lakh Crore** levels.",
-      "**RBI Policy:** Repo rate kept at **6.5%** again, focus on inflation stabilization.",
-      "**Stock Market Trends:** Nifty and Sensex cross record high levels due to stable investments."
+      "**GST Revenue Record:** April collection hits record high of **2.21 Lakh Crore**.",
+      "**Repo Rate Stability:** RBI Governor confirms repo rate stays at **6.5%** to control food price index.",
+      "**Nifty Crosses Milestone:** Stock market reaches all-time high due to strong foreign institutional investments.",
+      "**Rupee Trade Settlements:** Indian rupee accepted for trade payments by 5 more Asian countries.",
+      "**Gold Reserves Shift:** RBI shifts 100 tonnes of gold from UK vaults back to domestic vaults."
     ],
     science: [
-      "**Agni-V MIRV Test:** DRDO targets multiple warheads range successfully tested.",
-      "**Privately Built Rocket:** Private aerospace startup launches suborbital flight successfully.",
-      "**Cancer Treatment:** Indigenous CAR-T cell therapy approvals and hospitals rollout."
+      "**Agni-V MIRV technology:** Flight trials confirm successful separation of multiple nuclear warheads.",
+      "**Start-up rocket launch:** Agnikul Cosmos launches suborbital flight using 3D-printed engine.",
+      "**Cancer Immunotherapy:** CAR-T cell therapy rollout started at government medical colleges.",
+      "**Solar capacity addition:** Southern states add **5.2 GW** solar power in single quarter.",
+      "**Defense exports:** India exports military equipment worth ₹21,000 Crore to friendly nations."
     ],
     sports: [
-      "**IPL Standings:** Teams points table updates, top run-scorers list in the first half.",
-      "**Laureus Sports Awards:** World sports stars and key award winners lists.",
-      "**Appointments:** New ICC Chairman and BCCI executive updates."
+      "**IPL Points Table:** Top spot struggles between CSK, KKR, and SRH in first half.",
+      "**Laureus World Sports Awards:** World athletes honored at ceremony.",
+      "**Chess Candidates Tournament:** Gukesh and Vaishali rank in top slots of world ratings.",
+      "**Hockey Pro League:** India team matches results and points standings.",
+      "**Shooting World Cup:** Indian shooters win 3 Gold medals in Germany."
     ],
     whoswho: [
       "**BCCI President:** Roger Binny.",
       "**RBI Governor:** Shaktikanta Das.",
       "**Odisha CM:** Mohan Charan Majhi | **Governor:** Raghubar Das.",
-      "**Maharashtra CM:** Eknath Shinde | **Governor:** C. P. Radhakrishnan."
+      "**Maharashtra CM:** Eknath Shinde | **Governor:** C. P. Radhakrishnan.",
+      "**Chief Justice of AP:** Justice Dhiraj Singh Thakur."
     ]
   },
   May: {
     national: [
-      "**General Elections Status:** Phase-wise voting percentage records in Southern states.",
-      "**Forest Conservation Bill:** Protected forest zones upgrades and tribals protection rules.",
-      "**National Highway Expansion:** Bharatmala project phase-2 budget checks approvals."
+      "**General Elections Phase 2:** Southern constituencies report high voter turnout percentages.",
+      "**Bharatmala Project Phase 2:** Central highways allocation and funding approvals list.",
+      "**Unified Pension Scheme (UPS):** Central government announces new pension updates for employees.",
+      "**Digital India Phase 3:** Rural broadband targets and AI services expansion budget.",
+      "**Urban Metro expansions:** Bengaluru Metro Phase-3 approvals finalized by cabinet."
     ],
     international: [
-      "**SCO Summit Astana:** Regional counter-terrorism and digital corridors talks updates.",
-      "**IPEF Agreement:** Indo-Pacific Economic Framework supply chain stability sign done.",
-      "**Bilateral Visit:** Prime Minister visits East Asian countries for trade talks."
+      "**SCO Ministers Summit:** Counter-terrorism cooperation frameworks and security protocols updated.",
+      "**IPEF Agreement:** Indo-Pacific Economic Framework supply chain agreements signed by India.",
+      "**Prime Minister Visit:** High-level bilateral talks in Singapore and Vietnam for trade.",
+      "**WHO Health Assembly:** India presents global vaccine distribution and digital health records success.",
+      "**Global Energy Index:** India climbs 5 spots in transition to clean energy ratings."
     ],
     economy: [
-      "**Inflation Control:** Retail inflation drops to **4.2%** levels (lowest in recent months).",
-      "**Foreign Direct Investment (FDI):** India technology sector lo FDI limits and inflow records.",
-      "**Corporate Deals:** Leading software firms announce global cloud partnership deals."
+      "**Retail Inflation Drops:** Inflation stabilizes at **4.2%** due to strong crop supply.",
+      "**FDI in Tech:** Indian software startups receive massive venture funding inflows.",
+      "**Corporate Alliances:** Leading tech firms join forces for sovereign AI model building.",
+      "**Export Growth:** Software exports show double-digit growth in Q1 statements.",
+      "**Foreign Exchange Reserves:** India forex reserves reach stable high levels."
     ],
     science: [
-      "**ISRO Cartosat-4:** High-resolution mapping satellite ready for launch pad checks.",
-      "**AI Supercomputer:** India's PARAM-Siddhi climbs up in global fast computers ranking.",
-      "**Green Hydrogen Project:** Public sector oil firms launch green hydrogen production units."
+      "**GSLV-F14 Success:** ISRO places weather satellite INSAT-3DS into geostationary orbit.",
+      "**Antibiotic Breakthrough:** Medical scientists discover molecule to fight drug-resistant bacteria.",
+      "**Defense Acquisitions:** Defense Ministry signs deal for indigenous fighter jets upgrades.",
+      "**Solar Park Launch:** World's largest single-location solar park checks completed in Rajasthan.",
+      "**Green Hydrogen Bus:** Public trials of hydrogen fuel cell buses started in New Delhi."
     ],
     sports: [
-      "**IPL 2026 Finals:** Winner team name, Runner-up, Orange/Purple cap holders final list.",
-      "**Grand Prix:** Formula 1 Monaco GP and key racing winners names.",
-      "**Arjuna Awards Recommendations:** Outstanding athletes names selection list."
+      "**IPL 2026 Winner:** Trophy won by champion team, awards ceremony details.",
+      "**Monaco Grand Prix:** Top drivers podium finishes and championship points.",
+      "**Thomas Cup Badminton:** Indian men's team enters knockout stages.",
+      "**Athletics Grand Prix:** Neeraj Chopra wins gold in javelin throw event.",
+      "**Wrestling Champions:** Indian wrestlers win medals in Asian Championship."
     ],
     whoswho: [
       "**Chief of Air Staff:** Air Chief Marshal Amar Preet Singh.",
-      "**Cabinet Secretary:** Rajiv Gauba.",
+      "**Chief of Defence Staff (CDS):** General N. S. Raja Subramani (Assumed office May 31, 2026).",
       "**Bihar CM:** Nitish Kumar | **Governor:** Rajendra Vishwanath Arlekar.",
-      "**West Bengal CM:** Mamata Banerjee | **Governor:** C. V. Ananda Bose."
+      "**West Bengal CM:** Mamata Banerjee | **Governor:** C. V. Ananda Bose.",
+      "**Chairman of UPSC:** Sanjay Shrinet."
     ]
   },
   June: {
     national: [
-      "**New Cabinet Oath:** Prime Minister and cabinet ministers portfolio list distribution details.",
-      "**Kavach expansion budget:** Kavach implementation across South Central railway sections.",
-      "**Digital India Phase 3:** Rural internet connectivity and public AI services budget."
+      "**New Cabinet Portfolios:** Prime Minister Modi distributes ministries, key ministers take charge.",
+      "**Kavach deployment speed:** South Central Railway accelerates Kavach installation on major routes.",
+      "**National Education Policy:** College degree formats and regional language syllabus guidelines.",
+      "**Jal Shakti Schemes:** Drinking water pipe connectivity targets reached in all villages.",
+      "**Smart Cities Mission:** Project completion deadlines extended to ensure quality."
     ],
     international: [
-      "**G7 Summit:** India invited as outreach country, talks on global green energy transition.",
-      "**Global Competitiveness Index:** India climbs 3 ranks to reach improved global spot.",
-      "**Climate Finance Agreements:** Developing nations financial support guidelines finalized."
+      "**G7 Outreach Summit:** India invited to G7 summit, talks on global supply chain and green hydrogen.",
+      "**Global Competitiveness Index:** India moves up 3 ranks to reach a better spot.",
+      "**Climate Finance Treaty:** Developed countries agree to transfer clean technology funds.",
+      "**India-UK FTA:** Negotiators resolve services sector visa disputes.",
+      "**Bilateral Security Pact:** Joint security training agreements signed with Japan."
     ],
     economy: [
-      "**World Bank Report:** India FY27 GDP growth rate prediction set to **6.8%**.",
-      "**RBI Digital Rupee Offline:** e-rupee offline card payments rollout launched.",
-      "**Mergers & Acquisitions:** Dynamic banking and insurance sectors merger updates."
+      "**World Bank Forecast:** India GDP growth projected to remain strong at **6.8%** for FY27.",
+      "**e-Rupee offline launch:** RBI launches physical card-based offline digital rupee wallets.",
+      "**Insurance Sector Reforms:** IRDAI allows customer-friendly health insurance portability rules.",
+      "**External Debt Reports:** Ministry of Finance reports decline in India external debt-to-GDP ratio.",
+      "**Banking Mergers:** Public sector banks consolidate digital platforms to cut costs."
     ],
     science: [
-      "**ISRO GSLV-F14:** Heavy satellite launch system tests successful.",
-      "**Superbug Antibiotic:** Indian medical research institute discovers new antibiotic molecule.",
-      "**Defense Deals:** India signs deal for advanced drones purchase from US."
+      "**Gaganyaan abort test:** ISRO successfully tests crew module safety system during high-velocity flight.",
+      "**Supercomputer Param-Siddhi:** Indian supercomputer ranked in top 50 global systems.",
+      "**Ocean Expedition:** Indian scientists launch deep-sea mining exploration in Indian Ocean.",
+      "**AI Regulations:** MEITY issues rules for deploying AI models in public services.",
+      "**Biotech crop approvals:** Gene-edited mustard variety cleared for field trials."
     ],
     sports: [
-      "**T20 World Cup 2026 Winners:** Cup winners, Player of the tournament and top performances.",
-      "**French Open 2026:** Rafael Nadal / new generation clay court winners list.",
-      "**FIDE Candidates Chess:** Indian young grandmasters rankings and results."
+      "**T20 World Cup 2026 Winners:** Champions crowned at final match in Colombo.",
+      "**French Open Grand Slam:** Clay court champions list (Men & Women singles).",
+      "**FIDE Candidates Chess:** Young Indian grandmasters finish in top positions.",
+      "**Archery World Cup:** Indian archers win gold in mixed team events.",
+      "**Table Tennis Pro Tour:** Indian girls win double titles in double category."
     ],
     whoswho: [
       "**NITI Aayog Vice Chairperson:** Suman Bery.",
       "**Comptroller and Auditor General (CAG):** Girish Chandra Murmu.",
       "**Uttar Pradesh CM:** Yogi Adityanath | **Governor:** Anandiben Patel.",
-      "**Rajasthan CM:** Bhajan Lal Sharma | **Governor:** Haribhau Bagade."
+      "**Rajasthan CM:** Bhajan Lal Sharma | **Governor:** Haribhau Bagade.",
+      "**SEBI Chairperson:** Madhabi Puri Buch."
     ]
   },
   July: {
     national: [
-      "**Kavach 4.0 Milestone:** 2,633 Route Kilometers covered under Kavach collision safety.",
-      "**National Education Policy updates:** regional languages teaching guidelines in colleges.",
-      "**High Court Appointments:** Supreme Court collegium suggests new Chief Justices list."
+      "**Kavach 4.0 Milestone:** 2,633 Route Kilometers covered under Kavach safety as of July 31.",
+      "**NEP in Colleges:** Universities implement regional language courses in professional degrees.",
+      "**High Court Appointments:** 10 new judges appointed to various High Courts by President.",
+      "**National Grid Connectivity:** Renewable energy transmission line between Ladakh and Haryana started.",
+      "**Amrit Bharat Stations:** Modern amenities and smart ticketing kiosks installed at 100 railway stations."
     ],
     international: [
-      "**India-UK Free Trade Talks:** Intellectual property and tariff thagginchadam details.",
-      "**BRICS New Bank Spends:** Infrastructure projects funding approvals list.",
-      "**Passport Index:** India Henley Passport Index rank improved by 2 spots."
+      "**India-UK FTA talks:** Financial services and intellectual property rules finalized.",
+      "**BRICS New Development Bank:** Funding approved for water projects in Central India.",
+      "**Henley Passport Index:** Indian passport rank rises 2 places to allow visa-free entry to more countries.",
+      "**India-Russia Trade Meet:** Oil supply and local currency payment systems reviewed.",
+      "**UN Security Council Meet:** India calls for digital peace and cyber defense protocols."
     ],
     economy: [
-      "**Fitch Ratings:** India stable credit rating confirmed due to strong GDP growth.",
-      "**Public Sector Bank Dividends:** Record payments to central government treasury.",
-      "**Corporate Earnings:** Software exports show positive growth in Q1 reports."
+      "**Fitch Credit Rating:** Fitch confirms India stable credit rating due to high infrastructure growth.",
+      "**Bank Dividend Payment:** Public sector banks pay record high dividends to central government.",
+      "**Corporate Q1 Results:** Software export firms show strong revenue growth.",
+      "**Retail Credit Growth:** RBI cautions banks on high personal loan growth levels.",
+      "**Gold Imports:** Customs duty reductions lead to higher gold imports and lower smuggling."
     ],
     science: [
-      "**Cartosat-4 Launch:** ISRO successfully places mapping satellite into orbit.",
-      "**Chandrayaan-4 Plans:** Lunar sample return mission designs approved by Space Commission.",
-      "**Military Drill:** Multi-nation air drill **Tarang Shakti** host done in India."
+      "**Cartosat-4 Launch:** ISRO successfully places mapping satellite into sun-synchronous orbit.",
+      "**Chandrayaan-4 Designs:** Lunar sample return mission designs approved by Space Commission.",
+      "**Tarang Shakti Phase 1:** Joint air force exercises with partner countries started in South India.",
+      "**Vaccine Trials:** Clinical trials of new dengue vaccine show high safety margins.",
+      "**Electric Vehicle R&D:** Government approves funds for solid-state battery research."
     ],
     sports: [
-      "**Wimbledon 2026:** Grass court grand slam winners lists (Men & Women singles).",
-      "**National Games Schedules:** Venue details and sports addition list.",
-      "**Appointments:** New head coach of Indian cricket team takes charge."
+      "**Wimbledon 2026 Champions:** Grass court grand slam winners lists (Men & Women singles).",
+      "**National Games Venue:** Uttarakhand selected to host next national games.",
+      "**Cricket Team Head Coach:** New head coach takes charge of national team.",
+      "**Badminton Open:** Indian players win doubles title in Singapore Open.",
+      "**Shooting Trials:** Final team selection completed for upcoming championships."
     ],
     whoswho: [
       "**Lok Sabha Speaker:** Om Birla.",
       "**Rajya Sabha Chairperson (Vice President):** Jagdeep Dhankhar.",
       "**Gujarat CM:** Bhupendra Patel | **Governor:** Acharya Devvrat.",
-      "**Madhya Pradesh CM:** Mohan Yadav | **Governor:** Mangubhai C. Patel."
+      "**Madhya Pradesh CM:** Mohan Yadav | **Governor:** Mangubhai C. Patel.",
+      "**Chief Justice of Delhi High Court:** Justice Manmohan."
     ]
   },
   August: {
     national: [
-      "**80th Independence Day:** PM outlines **'Mission 2047'** targets for developed India.",
+      "**80th Independence Day:** PM Narendra Modi outlines **'Mission 2047'** targets for developed India.",
       "**Railway CapEx Upgrades:** Budget allocation for Kavach 5.0 development in suburban lines.",
-      "**Welfare Pension Hikes:** Central employees pension schemes updates (Unified Pension Scheme)."
+      "**Higher Education Secretary:** Deepti Gaur Mukerjee (1993-batch IAS) appointed Higher Education Secretary.",
+      "**GOBARdhan Scheme Outlay:** Unified scheme for Compressed Biogas development projects ₹23,731 crore allocation approved.",
+      "**Unified Pension Scheme (UPS) launch:** Central government pension schemes updates for employees."
     ],
     international: [
       "**Global Supply Chain Meet:** India hosts international trade safety summit.",
       "**IPCC Report:** Climate warning for coastal cities, recommendations list.",
-      "**Bilateral Visit:** High-level delegation visits South American countries for lithium deals."
+      "**Bilateral Visit:** High-level delegation visits South American countries for lithium deals.",
+      "**BRICS Summit Agenda:** Preparation for annual summit under India Presidency.",
+      "**India-Japan 2+2 Meet:** Maritime security and tech transfer agreements signed."
     ],
     economy: [
       "**Economic Survey FY26:** Inflation levels stabilized around **4.0%** target.",
       "**RBI Monetary Policy:** Repo rate kept at **6.5%** for the 9th consecutive time.",
-      "**Industrial Output (IIP):** Mining and manufacturing show robust recovery trends."
+      "**Industrial Output (IIP):** Mining and manufacturing show robust recovery trends.",
+      "**Fiscal Deficit review:** Fiscal deficit targets are on track to hit 4.4%.",
+      "**Direct Tax Receipts:** Income tax collections grow by 18% in the first five months."
     ],
     science: [
       "**Tarang Shakti Phase 2:** Massive air force exercises with 15 partner nations.",
       "**Vande Bharat 4.0 Trials:** Future rakes equipped with Kavach 5.0 testing successfully.",
-      "**Nuclear Power Expansion:** Government approves 10 new indigenous nuclear reactors."
+      "**Nuclear Power Expansion:** Government approves 10 new indigenous nuclear reactors.",
+      "**Mobile Food Lab:** NABL launches India's first accreditation scheme for mobile food testing labs.",
+      "**Space Startups Funding:** ISRO opens new venture capital fund to support rocket startups."
     ],
     sports: [
       "**Paris Olympics 2026:** Indian athletes medal list, key winners, and gold medal tallies.",
+      "**British Chess Champions:** Indian-origin chess players Bodhana Sivanandan and Shreyas Royal win top ranks.",
       "**US Open 2026 Kick-off:** Hardcourt tennis grand slam schedule and key players updates.",
-      "**National Sports Day:** Celebrations commemorating Major Dhyan Chand's birth anniversary."
+      "**National Sports Day:** Celebrations commemorating Major Dhyan Chand's birth anniversary.",
+      "**BWF Commission Chair:** PV Sindhu assumes office as Chair of Athletes Commission."
     ],
     whoswho: [
       "**Prime Minister:** Narendra Modi | **President:** Droupadi Murmu.",
       "**Union Home Minister:** Amit Shah | **Finance Minister:** Nirmala Sitharaman.",
       "**Union Railway Minister:** Ashwini Vaishnaw.",
-      "**Union External Affairs Minister:** S. Jaishankar."
+      "**Union External Affairs Minister:** S. Jaishankar.",
+      "**Chief Justice of India (CJI):** Justice Sanjiv Khanna."
     ]
   }
 };
@@ -286,64 +374,64 @@ const CURRENT_AFFAIRS_DATA = {
 // --- MINI PRACTICE QUIZ DATASET ---
 const QUIZ_QUESTIONS = {
   January: {
-    question: "January 2026 lo, ISRO ey space mission crew module escape system trials successfully run chesaru?",
+    question: "January 2026 lo, India's 77th Republic Day celebration guest speaker ga evaru vacharu?",
     options: [
-      { text: "Chandrayaan-4", correct: false },
-      { text: "Gaganyaan", correct: true },
-      { text: "Aditya-L1", correct: false },
-      { text: "Mangalyaan-2", correct: false }
+      { text: "Presidents of European Commission & Council", correct: true },
+      { text: "US President Joe Biden", correct: false },
+      { text: "French President Emmanuel Macron", correct: false },
+      { text: "UK Prime Minister Keir Starmer", correct: false }
     ],
-    hint: "Astronauts ni space ki pampadaniki ready chesthunna mission."
+    hint: "Ursula von der Leyen and Charles Michel were chief guests."
   },
   February: {
-    question: "Union Budget 2026-27 lo stations modernization kosam dynamic ga implement chesthunna scheme name?",
+    question: "February 2026 lo, central cabinet approve chesina GOBARdhan scheme funding budget values entha?",
     options: [
-      { text: "Amrit Bharat Station Scheme", correct: true },
-      { text: "PM Garib Kalyan Yojana", correct: false },
-      { text: "Mission Raftar", correct: false },
-      { text: "Kavach 4.0 Upgrades", correct: false }
+      { text: "₹10,500 Crore", correct: false },
+      { text: "₹15,000 Crore", correct: false },
+      { text: "₹23,731 Crore", correct: true },
+      { text: "₹30,000 Crore", correct: false }
     ],
-    hint: "Total 1275 Railway Stations upgrade target scheme."
+    hint: "It is the National Unified Scheme for Compressed Biogas."
   },
   March: {
-    question: "March 2026 lo, DRDO targets multiple warheads range run chesina missile name?",
+    question: "March 2026 lo, air force joint exercises friendly nations tho jarigina mega exercise name?",
     options: [
-      { text: "Prithvi-II", correct: false },
-      { text: "Agni-V (MIRV)", correct: true },
-      { text: "BrahMos", correct: false },
-      { text: "Akash-NG", correct: false }
+      { text: "Surya Kiran", correct: false },
+      { text: "Tarang Shakti", correct: true },
+      { text: "Yudh Abhyas", correct: false },
+      { text: "Nomadic Elephant", correct: false }
     ],
-    hint: "Intercontinental ballistic missile system developed by DRDO."
+    hint: "Massive joint air exercise hosted in India."
   },
   April: {
     question: "April 2026 lo, monthly GST revenue collections peak cross chesina record level values?",
     options: [
       { text: "1.5 Lakh Crore", correct: false },
       { text: "1.8 Lakh Crore", correct: false },
-      { text: "2.1 Lakh Crore", correct: true },
+      { text: "2.21 Lakh Crore", correct: true },
       { text: "2.5 Lakh Crore", correct: false }
     ],
     hint: "Highest monthly collection record in India history."
   },
   May: {
-    question: "May 2026 lo, low food prices valla retail inflation drop aina target levels?",
+    question: "May 31, 2026 lo new Chief of Defence Staff (CDS) ga badhyathalu sweekarinchina general name?",
     options: [
-      { text: "3.5%", correct: false },
-      { text: "4.2%", correct: true },
-      { text: "5.1%", correct: false },
-      { text: "5.5%", correct: false }
+      { text: "General Manoj Pande", correct: false },
+      { text: "General Anil Chauhan", correct: false },
+      { text: "General N. S. Raja Subramani", correct: true },
+      { text: "Admiral R Hari Kumar", correct: false }
     ],
-    hint: "Lowest inflation level in recent months."
+    hint: "Assumed the CDS / top defense post in mid-2026."
   },
   June: {
-    question: "June 2026 lo, jarigina T20 World Cup 2026 parameters and host countries updates?",
+    question: "June 2026 lo, global fast supercomputer lists lo parameter position clear chesina AI machine?",
     options: [
-      { text: "ICC World Cup matches were played", correct: true },
-      { text: "Only Test championship was played", correct: false },
-      { text: "Ranji Trophy matches", correct: false },
-      { text: "No cricket events", correct: false }
+      { text: "PARAM-Siddhi", correct: true },
+      { text: "PARAM-8000", correct: false },
+      { text: "Pratyush", correct: false },
+      { text: "Mihir", correct: false }
     ],
-    hint: "Mega T20 tournament held recently."
+    hint: "India's premier AI supercomputing system."
   },
   July: {
     question: "July 2026 varaku, central railway systems lo Kavach cover chesina total route range in kilometers?",
@@ -356,14 +444,14 @@ const QUIZ_QUESTIONS = {
     hint: "Record high automatic collision safety route coverage."
   },
   August: {
-    question: "August 2026 starting lo jarigina Paris Olympics lo Indian players score tally updates jarigina target city name?",
+    question: "August 2026 lo, new Higher Education Secretary (Secretary of Higher Education) ga appointed aina IAS officer name?",
     options: [
-      { text: "London", correct: false },
-      { text: "Paris", correct: true },
-      { text: "Tokyo", correct: false },
-      { text: "Los Angeles", correct: false }
+      { text: "Deepti Gaur Mukerjee", correct: true },
+      { text: "Rajiv Gauba", correct: false },
+      { text: "Sanjay Shrinet", correct: false },
+      { text: "Alok Aradhe", correct: false }
     ],
-    hint: "France capital city host for Olympics 2026."
+    hint: "1993-batch IAS officer appointed in August 2026."
   }
 };
 
